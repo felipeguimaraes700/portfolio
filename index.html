@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de front-end online do felipe Guimarães">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portifolio.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- main conteiner Start-->
+
+    <aside class="aside" id="container-menu">
+        <div class="button-close">
+            <i class="close" onclick="closeMenu()">&times;</i>
+        </div>
+
+        <div class="logo">
+            <a href="#"><span>M</span>enu</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+        </div>
+        <ul class="nav" id="menu">
+            <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#portifolio"><i class="fa fa-briefcase"></i> Portifolio</a></li>
+            <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
+    </aside>
+
+
+
+
+    <div id="icon-menu" onclick="openMenu()">
+        <img src="img/icon/icon-menu.png" alt="">
+    </div>
+
+    <!-- HOME  -->
+
+    <section class="home section">
+        <div class="container-home">
+            <div class="row-home">
+                <div class="home-info padd-15">
+                    <h1 class="hello">Oi, meu nome é <span class="name">Felipe J. Guimarães</span></h1>
+                    <h1 class="my-profession">Eu sou um <span class="typing">Desenvolvedor Front-End</span></h1>
+                    <div class="my-photo-mobile">
+                        <img src="img/minha-foto.jpeg" alt="">
+                    </div>
+                    <p>Seja bem vindo(a)!! <br> É um enorme prazer ter você aqui! <br> Espero que goste :)</p>
+                    <div class="conteiner-contact-home">
+                        <a href="#contact" class="btn hire-me">contrata-me</a>
+                        <div class="icons-home">
+                            <a href="https://github.com/felipeguimaraes700" target="_blank"><img
+                                    src="img/icon/icon-github.png" class="icon-github"></a>
+
+                            <a href="https://www.linkedin.com/in/felipe-guimar%C3%A3es-148468232/" target="_blank"><img
+                                    src="img/icon/icon-linkedin.png" class="icon-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-img padd-15">
+                    <img src="img/minha-foto.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- about -->
+
+        <section id="about">
+            <div class="conteiner-about">
+                <div class="row-about">
+                    <div class="about-me">
+                        <div class="title-box-about">
+                            <h1 class="about-title">Sobre mim</h1>
+                        </div>
+                        <div class="info">
+                            Meu nome é Felipe, tenho 18 anos. Sou desenhista, músico e desenvolvedor front-end. Estudo programaão-web desde dezembro de 2021, que foi quando meu irmão me mostrou esse universo da programação. me apaixonei, desde então, venho me dedicando para aprender mais a cada dia até me tornar um <strong>Full-Stack sênior</strong>. tem uma frase que eu gosto bastante que reflete esse meu pensamento "Hoje vai ser melhor do que ontem e amanhã vai ser melhor do que hoje".
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate-conteiner">
+                    <div class="certificate-title">
+                        <h2 class="cetificate-title">Certificados</h2>
+                    </div>
+                    <div class="container-certificates-mobile">
+                        <div class="certificate-mobile">
+                            <img src="img/certificate/certificado_rocktseat.png" alt="" class="certificate">
+                        </div>
+                        <div class="certificate-mobile">
+                            <img src="img/certificate/certificado_rocktseat2.png" alt="" class="certificate">
+                        </div>
+                        <div class="certificate-mobile">
+                            <img src="img/certificate/certificado_recode.png" alt="" class="certificate">
+                        </div>
+                        <div class="certificate-mobile">
+                            <img src="img/certificate/certificate_recode_marketing_digital.png" alt="" class="certificate">
+                        </div>
+                    </div>
+                    
+                        <div class="container-certificate-slide">
+                            <div class="slider">
+                                <div class="slides">
+                                    <input type="radio" name="radio-btn" id="radio1">
+                                    <input type="radio" name="radio-btn" id="radio2">
+                                    <input type="radio" name="radio-btn" id="radio3">
+                                    <input type="radio" name="radio-btn" id="radio4">
+                                    <div class="slide first">
+                                        <img src="img/certificate/certificado_rocktseat.png" alt="" class="certificate">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/certificate/certificado_rocktseat2.png" alt="" class="certificate">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/certificate/certificado_recode.png" alt="" class="certificate">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/certificate/certificate_recode_marketing_digital.png" alt="" class="certificate">
+                                    </div>
+                            
+                                    <div class="navigation-auto">
+                                        <div class="auto-btn1"></div>
+                                        <div class="auto-btn2"></div>
+                                        <div class="auto-btn3"></div>
+                                        <div class="auto-btn4"></div>
+                                    </div>
+                                </div>
+                                <div class="navigation-manual">
+                                    <label for="radio1" class="manual-btn"></label>
+                                    <label for="radio2" class="manual-btn"></label>
+                                    <label for="radio3" class="manual-btn"></label>
+                                    <label for="radio4" class="manual-btn"></label>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+    <!-- PORTIFÓLIO -->
+
+        
+            <section id="portifolio">
+                <div class="title-portifolio-container">
+                    <h1 class="title-portifolio">Portifolio</h1>
+                </div>
+                <div class="portifolio-subtitle">
+                    <h2 class="last-projects">Meus ultimos projetos:</h2>
+                </div>
+
+                <div class="conteiner-itens-portifolio">
+                    <div class="galery-container">
+                        <div class="filho-galery-container">
+                            <div class="container-img-portifolio">
+                                <div class="img-portifolio-item">
+                                    <a href="https://majestic-hummingbird-b09ea2.netlify.app/" class="link-item-portifolio"><img src="img/projetos-img/landingpage.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="https://majestic-hummingbird-b09ea2.netlify.app/" target="_blank" class="link-project">
+                                            <h2 class="title-project">Landing page</h2>
+                                            <p>HTML, CSS & JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/0f9026eafe68a3e8113029ec65a5dfea.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/29caf012aa82f14ae9a53ee0b957de03.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/548b752bba937a79cbca634c40fa98d0.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/b52082a4e69c558d5304a1a8ad9d011a.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/6f5ff3fb71e29d371801b81fc0d4c8a0.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/d5e9d4ed66350d9e1c87ec5d97878bc0.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="img-portifolio-item">
+                                    <a href="" class="link-item-portifolio"><img src="img/088a7827e847b63a3f64847fe9fb4e0d.jpg" class="img-portifolio"></a>
+                                    <div class="content-legend-portifolio">
+                                        <a href="" class="link-project">
+                                            <h2 class="title-project">Em breve</h2>
+                                            <p>HTML, CSS, JavaScript</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        
+        
+
+    <!-- CONTACT  -->
+
+        
+            <section id="contact">
+                <div class="conteiner-title-contact">
+                    <h1 class="title-mycontact">Meus contatos</h1>
+                </div>
+                <main>
+                    <div class="subtitle-contact">
+                        <h2>Quer me conhecer mais?</h2>
+                    </div>
+                    <div class="text-contact">
+                        <p>Entre em contato comigo</p>
+                    </div>
+                    <div class="conteiner-contact">
+                        <div class="conteiner-icon-contact">
+                            <a href="https://wa.me/5511960844667" target="_blank" class="link-contact"><i class="incon-contact fa-brands fa-whatsapp"></i></a>
+                        </div>
+                        <div class="conteiner-icon-contact">
+                            <a href="https://www.instagram.com/felipe_guima_ofc" target="_blank" class="link-contact"><i class="incon-contact fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="conteiner-icon-contact">
+                            <a href="#form-email" target="_blank" class="link-contact"><i class="incon-contact fa-solid fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </main>
+
+                <form action="https://api.staticforms.xyz/submit" method="post" id="form-email">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="assunto">Assuntos:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="b692b34a-ff25-4d6e-9c34-e53eb28daff3">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/portifolio/obrigado.html">
+                </form>
+                
+                <div class="fotter-contact">
+                    <i class="fa-regular fa-hashtag"></i>
+                    <p>mecontrate!</p>
+                </div>
+            </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
