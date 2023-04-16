@@ -105,6 +105,7 @@
     margin: auto;
     padding: 20px;
     margin-top: 150px;
+    border: 2px solid var(--skin-color);
 }
 
 #form-email input{
