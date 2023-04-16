@@ -107,9 +107,14 @@
     margin-top: 150px;
     border: 2px solid var(--skin-color);
 }
+#form-email label {
+    color: var(--skin-color);
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    ;
+}
 
 #form-email input{
-    width: 250px;
     height: 25px;
     margin: 10px 0px 20px 0px;
     background-color: rgba(255, 255, 255, 0.308);
@@ -119,32 +124,35 @@
     font-size: 1rem;
     color: white;
 }
-#form-email label{
-    color: var(--skin-color);
-    font-size: 20px;
-    font-family: 'Zilla Slab',serif;;
+#form-email input:focus{
+    border: 1px solid var(--skin-color);
 }
 #form-email textarea{
     background-color: rgba(255, 255, 255, 0.308);
     padding: 20px;
-    width: 300px;
     height: 250px;
     font-size: 1rem;
     color: white;
     border-radius: 5px;
 }
+#form-email textarea:focus {
+    border: 1px solid var(--skin-color);
+}
 #form-email button{
     margin-top: 25px;
-    height: 30px;
-    font-size: 1rem;
-    font-family: 'Poppins' sans-serif;;
+    height: 40px;
+    font-size: 1.1rem;
+    background-color: transparent;
+    color: var(--skin-color);
+    font-family: 'Poppins' sans-serif;
     cursor: pointer;
-    border: none;
+    border: 1px solid var(--skin-color);
     border-radius: 5px;
     transition: 0.2s ease-in-out;
 }
 #form-email button:hover{
     background: var(--skin-color);
+    color: black;
 }
 
 .fotter-contact {
