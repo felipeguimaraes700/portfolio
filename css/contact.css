@@ -129,6 +129,7 @@
 }
 #form-email textarea{
     background-color: rgba(255, 255, 255, 0.308);
+    margin-top: 15px;
     padding: 20px;
     height: 250px;
     font-size: 1rem;
@@ -177,9 +178,12 @@
     padding: 17px;
     border-radius: 50%;
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     #contact {
         height: 100%;
+    }
+    #form-email{
+        width: 400px;
     }
 }
 
@@ -207,6 +211,13 @@
     }
     .conteiner-icon-contact:not(:last-child){
         margin-right: 0;
+    }
+    #form-email {
+        margin-top: 60px;
+        width: 300px;
+    }
+    #form-email label{
+        font-size: 1.5rem;
     }
     .fotter-contact {
         font-size: 1.5rem;
