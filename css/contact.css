@@ -212,14 +212,18 @@
     .conteiner-icon-contact:not(:last-child){
         margin-right: 0;
     }
-    #form-email {
-        margin-top: 60px;
-        width: 300px;
-    }
-    #form-email label{
+    
+    .fotter-contact {
         font-size: 1.5rem;
     }
-    .fotter-contact {
+}
+@media (max-width: 420px) {
+    #form-email {
+        margin-top: 60px;
+        width: 240px;
+    }
+
+    #form-email label {
         font-size: 1.5rem;
     }
 }
@@ -231,9 +235,6 @@
 }
 @media (min-height: 915px){
     #contact{
-        height: 100vh;
-    }
-    #contact main{
-        height: 640px;
+        height: 100%;
     }
 }
