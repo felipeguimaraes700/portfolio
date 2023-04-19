@@ -26,3 +26,18 @@ function nextCertificate(){
     }
     document.getElementById('radio' + count).checked = true;
 }
+
+// ZOOM PORTFOLIO ////////////////////////////
+
+let imgPortifolio = document.getElementById('imagem-portfoilio01')
+let linkItemPortifolio = document.getElementById('project01')
+
+linkItemPortifolio.addEventListener('mousehover', bigImg())
+linkItemPortifolio.addEventListener('mouseleave', smallImg())
+
+function bigImg(){
+    imgPortifolio.style.transform = 'scale(1.2)';
+}
+function smallImg(){
+    imgPortifolio.style.transform = 'scale(1)'
+}
