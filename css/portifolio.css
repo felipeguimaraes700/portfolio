@@ -49,19 +49,33 @@
     transition: 0.5s all;
 }
 .title-project {
+    color: rgb(163, 80, 11);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#project01{
     color: var(--skin-color);
     font-size: 2rem;
+    background-color: transparent;
 }
 
 .content-legend-portifolio p {
     color: white;
+    font-size: 1rem;
 }
 
 .img-portifolio {
     width: 100%;
     height: 100%;
-    transform: scale();
     transition: 0.5s;
+}
+
+#img02, #img03, #img04, #img05,#img06,#img07, #img08{
+    filter: contrast(70%);
 }
 
 .link-item-portifolio {
