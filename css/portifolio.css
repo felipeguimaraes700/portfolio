@@ -57,12 +57,16 @@
     padding: 10px 0;
 }
 
-#project01{
+#project01 {
     color: var(--skin-color);
     font-size: 2rem;
     background-color: transparent;
 }
-
+#project02 h2{
+    color: var(--skin-color);
+    font-size: 2rem;
+    background-color: transparent;
+}
 .content-legend-portifolio p {
     color: white;
     font-size: 1rem;
@@ -74,7 +78,7 @@
     transition: 0.5s;
 }
 
-#img02, #img03, #img04, #img05,#img06,#img07, #img08{
+#img03, #img04, #img05,#img06,#img07, #img08{
     filter: contrast(70%);
 }
 
