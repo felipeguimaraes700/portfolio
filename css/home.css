@@ -75,9 +75,10 @@
     margin-right: 10px;
 }
 
-.icon-github {
-    height: 40px;
+.fa-github {
+    font-size: 40px;
     margin-left: 10px;
+    color: white;
 }
 
 .icon-linkedin {
@@ -170,6 +171,9 @@
     .my-profession span{
         display: flex;
         flex-wrap: wrap;
+    }
+    .icons-home{
+        margin-top: 20px;
     }
 }
 @media (max-width: 594px){
