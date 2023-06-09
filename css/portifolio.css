@@ -89,6 +89,25 @@
     
 }
 
+.linguagens-container{
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40px;
+}
+.linguagens-container p{
+    margin-bottom: 10px;
+}
+.linguagens-container .linguagens-icons i{
+    color: var(--skin-color);
+    margin-right: 8px;
+    font-size: 20px;
+
+}
 /*IMAGENS-FINE*/
 
 .title-portifolio {
