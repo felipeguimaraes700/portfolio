@@ -62,7 +62,7 @@
     font-size: 2rem;
     background-color: transparent;
 }
-#project02 h2{
+#project02 h2, #project03 h2{
     color: var(--skin-color);
     font-size: 2rem;
     background-color: transparent;
@@ -78,7 +78,7 @@
     transition: 0.5s;
 }
 
-#img03, #img04, #img05,#img06,#img07, #img08{
+#img04, #img05,#img06,#img07, #img08{
     filter: contrast(70%);
 }
 
