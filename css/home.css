@@ -94,7 +94,9 @@
     padding: 12px 35px;
     color: rgb(15, 15, 15);
     border-radius: 40px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     white-space: nowrap;
     border: none;
     background: var(--skin-color);
@@ -130,6 +132,7 @@
         justify-content: space-around;
         align-items: center;
         width: 900px;
+        margin: 20px;
     }
     .hello span, .my-profession span{
         display: flex;
@@ -140,43 +143,7 @@
     }
 }
 
-@media (max-width: 768px) {
-    .row-home {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .home .home-img img{
-        height: 300px;
-    }
-
-    .hello .my-profession{
-        font-size: 3rem;
-    }
-
-    .hello .my-profession{
-        font-size: 2.2rem;
-    }
-
-    .hello span{
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 2.5rem;
-    }
-    .my-profession span{
-        font-size: 2rem;
-    }
-
-    .my-profession span{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .icons-home{
-        margin-top: 20px;
-    }
-}
-@media (max-width: 594px){
+@media (max-width: 700px){
     .home {
         height: 100%;
         padding: 30px 0;
@@ -215,39 +182,6 @@
     }
 }
 
-@media (max-width: 425px) {
-    .home{
-        height: 100%;
-        padding: 30px 0;
-    }
-    .row-home .hello, .my-profession {
-        text-align: center;
-        font-size: 25px;
-        width: 360px;
-    }
-
-    .home .home-img img{
-        display: none;
-    }
-    .my-photo-mobile img{
-        display: block;
-    }
-
-    .my-photo-mobile {
-        display: flex;
-        justify-content: center;
-    }
-
-    .hire-me{
-        width: 80px;
-    }
-    .conteiner-contact-home {
-        display: flex;
-        flex-wrap: wrap;
-        width: 300px;
-        justify-content: center;
-    }
-}
 
 @media (max-width: 375px) {
     .row-home{
