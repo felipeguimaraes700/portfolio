@@ -110,10 +110,33 @@ nav #logo img{
     height: 30px;
 }
 
-.container-icons-contact i{
-    font-size: 1.5rem;
+.container-icons-contact a{
+    font-size: 1.9rem;
     cursor: pointer;
+    color: black;
 }
-.container-icons-contact i:not(:last-child){
+.container-icons-contact a:not(:last-child){
     margin-right: 20px;
+}
+
+.container-next-page-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.container-next-page-bottom i{
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+.container-next-page-bottom:hover{
+    background: linear-gradient(-43deg, rgba(31, 0, 209, 0.712),rgba(33, 223, 197, 0.671));
+    border: 1px solid black;
 }
