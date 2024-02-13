@@ -101,3 +101,19 @@ nav #logo img{
 .container-binarios .result-binario{
     margin-top: 10px;
 }
+
+.container-icons-contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 30px;
+}
+
+.container-icons-contact i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container-icons-contact i:not(:last-child){
+    margin-right: 20px;
+}
