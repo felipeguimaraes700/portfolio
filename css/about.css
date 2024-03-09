@@ -62,7 +62,9 @@ section {
     margin-left: 30px;
     width: 80%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 2px black;
+    background-color: rgba(255, 255, 255, 0.377);
 
 }
 .title-about{
