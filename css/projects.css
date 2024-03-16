@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'sans-serif';
+}
+
+#projects{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgraoud-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.backgraoud-section video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: opacity(50%);
+}
+.title-projects{
+    position: relative;
+}
+.title-projects h2{
+    color: white;
+}
+.container-projects{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-projects-itens{
+    display: flex;
+    gap: 3rem;
+    
+}
+.container-project-iten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 3px solid rgb(0, 0, 0);
+}
+.project-iten{
+    background-color: rgba(240, 255, 255, 0.404);
+    width: 220px;
+    height: 130px;
+}
+.project-descripition{
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(16, 3, 41);
+    text-align: center;
+}
+.project-descripition p{
+    font-size: 0.8rem;
+    color: rgb(146, 146, 146);
+}
+.container-buttons-project{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20 0px;
+    gap: 1.5rem;
+}
+.container-buttons-project button{
+    padding: 8px;
+    width: 75px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+    background-color: rgb(225, 192, 255);
+}
