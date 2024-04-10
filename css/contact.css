@@ -49,7 +49,7 @@ input{
     width: 300px;
     color: white;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
     background-color: rgba(0, 0, 0, 0);
     transition: .3s linear;
 }
@@ -65,7 +65,8 @@ textarea{
     color: white;
     background-color: rgba(0, 0, 0, 0);
     border: none;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 5px;
     margin-bottom: 40px;
     transition: .3s linear;
 }
