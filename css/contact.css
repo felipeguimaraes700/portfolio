@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: url(https://cdn.pixabay.com/photo/2018/05/14/16/54/cyber-3400789_1280.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-description-contact{
+    width: 600px;
+    height: 70%;
+    color: white;
+}
+
+.container-description-contact h2{
+    font-family: 'Orbitron';
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+.container-description-contact p {
+    font-size: 1.2rem;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.336);
+    border: 2px solid black;
+    width: 300px;
+    padding: 40px
+}
+
+input{
+    padding: 7px;
+    margin-bottom: 20px;
+    width: 300px;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: none;
+    
+}
+
+textarea{
+    resize: vertical;
+    padding: 7px;
+    width: 300px;
+    color: white;
+    background-color: rgb(59, 59, 59);
+    border: none;
+}
