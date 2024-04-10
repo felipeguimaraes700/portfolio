@@ -7,46 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 255, 255, 0.589);
-    position: fixed;
-    width: 100%;
-}
-
-nav #logo img {
-    height: 50px;
-    margin: 10px;
-}
-
-.nav-links ul {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links ul li {
-    margin-right: 50px;
-}
-
-.nav-links ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 2px;
-    transition: .2s linear;
-}
-
-.nav-links ul li a:hover {
-    border-bottom: 2px solid hwb(241 0% 37%);
-}
-
-.hora-container {
-    margin-right: 20px;
-}
-
-section {
+#about{
     display: flex;
     align-items: center;
     width: 100%;
