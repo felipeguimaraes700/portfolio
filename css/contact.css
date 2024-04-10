@@ -37,19 +37,25 @@ form{
     justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.336);
-    border: 2px solid black;
+    border: 2px solid rgb(29, 255, 236);
+    box-shadow: 0px 0px 11px 0px rgb(29, 255, 236); 
     width: 300px;
     padding: 40px
 }
 
 input{
     padding: 7px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 300px;
     color: white;
-    background-color: rgb(59, 59, 59);
     border: none;
-    
+    border-bottom: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    transition: .3s linear;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(29, 255, 236);
 }
 
 textarea{
@@ -57,6 +63,29 @@ textarea{
     padding: 7px;
     width: 300px;
     color: white;
-    background-color: rgb(59, 59, 59);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
+    border: 1px solid white;
+    margin-bottom: 40px;
+    transition: .3s linear;
+}
+textarea:focus{
+    outline: none;
+    border: 2px solid rgb(29, 255, 236);
+}
+
+button{
+    height: 30px;
+    width: 315px;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor: pointer;
+    background: linear-gradient(to top, rgb(102, 102, 102), rgb(133, 133, 133));
+    border-radius: 10px;
+    border: none;
+    transition: .3s linear;
+}
+button:hover{
+    background: linear-gradient(to top, rgb(10, 74, 214), rgb(57, 255, 255));
+    box-shadow: 0px 0px 3px 0px rgb(57, 255, 255);
 }
