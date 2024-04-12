@@ -75,7 +75,7 @@ textarea:focus{
     border: 2px solid rgb(29, 255, 236);
 }
 
-button{
+form button{
     height: 30px;
     width: 315px;
     font-size: 16px;
@@ -86,7 +86,7 @@ button{
     border: none;
     transition: .3s linear;
 }
-button:hover{
+form button:hover{
     background: linear-gradient(to top, rgb(10, 74, 214), rgb(57, 255, 255));
     box-shadow: 0px 0px 3px 0px rgb(57, 255, 255);
 }

@@ -10,10 +10,12 @@
 #projects{
     position: relative;
     height: 100vh;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(https://img.freepik.com/fotos-gratis/homem-tiro-medio-usando-oculos-vr_23-2149126949.jpg?w=900&t=st=1712885028~exp=1712885628~hmac=a571e73162d5bd24e7af7a16deb533769d03e8c4632447e5384ab637276ce607);
+    background-color: black;
+    box-shadow: 0px 0px 20px 0px black;
 }
 .backgraoud-section{
     position: absolute;
@@ -35,6 +37,9 @@
     color: white;
     font-family: 'Orbitron', 'sans-serif';
     margin-bottom: 50px;
+    font-size: 2.5rem;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.87);
 }
 .container-projects{
     position: relative;
@@ -54,6 +59,7 @@
     justify-content: center;
     flex-direction: column;
     border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.87);
 }
 .project-iten{
     background-color: rgba(240, 255, 255, 0.404);
@@ -86,4 +92,10 @@
     border-radius: 8px;
     font-weight: bolder;
     background-color: rgb(225, 192, 255);
+    transition: .3s linear;
+}
+
+.container-buttons-project button:hover{
+    background: linear-gradient(45deg, rgb(0, 157, 168), rgb(14, 63, 221), rgb(255, 0, 170));
+    color: white;
 }
