@@ -67,10 +67,56 @@ nav #logo img{
 .nav-links ul li a:hover{
     border-bottom: 2px solid hwb(241 0% 37%);
 }
-
-.hora-container{
-    margin-right: 20px;
+.container-menu-hamburger{
+    font-size: 40px;
+    display: none;
 }
+.container-menu-hamburger i {
+    cursor: pointer;
+}
+
+.container-box-vazia{
+    margin-right: 20px;
+    width: 80PX;
+}
+
+/******OPEN-MENU*******/
+
+.container-menu-open{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    background: linear-gradient(45deg, rgb(34, 13, 94), rgb(10, 247, 255));
+    overflow: hidden;
+}
+.container-menu-open ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-menu-open ul li{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.container-menu-open a{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+    color: black;
+}
+.container-close-menu{
+    position: absolute;
+    right: 45px;
+    top: 8px;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+
 
 .container-text-blocks{
     position: relative ;
@@ -154,4 +200,17 @@ nav #logo img{
 .container-next-page-bottom:hover{
     background: linear-gradient(-43deg, rgba(31, 0, 209, 0.712),rgba(33, 223, 197, 0.671));
     border: 1px solid black;
+}
+
+@media screen and (max-width: 900px){
+    .nav-links{
+        display: none;
+    }
+    .container-menu-hamburger{
+        display: block;
+        margin-right: 40px;
+    }
+    .container-box-vazia{
+        display: none;
+    }
 }

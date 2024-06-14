@@ -30,10 +30,26 @@
                     <li><a href="#contact">Contacts</a></li>
                 </ul>
             </div>
-        
-            <div class="hora-container">
-                <h2>14:05</h2>
+
+            <div class="container-menu-hamburger">
+                <i class="fas fa-stream" onclick="openMenu()"></i>
             </div>
+
+            <div class="container-box-vazia">
+                <h2></h2>
+            </div>
+        </nav>
+
+        <nav class="container-menu-open" id="nav-bar">
+            <div class="container-close-menu" >
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
         </nav>
 
         <div class="container-text-blocks">
@@ -176,6 +192,8 @@
         
     
     </section>
+
+    <script src="js/home.js"></script>
 
 </body>
 </html>
