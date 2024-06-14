@@ -25,7 +25,7 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px 2px black;
-    background-color: rgba(255, 255, 255, 0.377);
+    background-color: rgba(255, 255, 255, 0.486);
 
 }
 .title-about{
@@ -37,10 +37,24 @@
     font-size: 1.3rem;
 }
 .frase{
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     margin: 0 10px;
 }
 .frase h2{
     text-align: center;
     font-family: 'Orbitron', sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    #about{
+        flex-direction: column;
+        padding: 50px 0px 0px 0px;
+    }
+    .container-about{
+        margin-bottom: 60px;
+    }
+    .frase{
+        margin: 0px;
+        padding: 20px 20px 40px 20px;
+    }
 }
