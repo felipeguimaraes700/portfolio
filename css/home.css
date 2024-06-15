@@ -87,7 +87,7 @@ nav #logo img{
     align-items: center;
     justify-content: center;
     height: 0;
-    background: linear-gradient(45deg, rgb(34, 13, 94), rgb(10, 247, 255));
+    background: linear-gradient(45deg, rgba(35, 13, 94, 0.932), rgba(10, 247, 255, 0.856));
     overflow: hidden;
     transition: .3s ease-in-out;
 }
@@ -107,6 +107,10 @@ nav #logo img{
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
     color: black;
+    transition: .2s linear;
+}
+.container-menu-open a:hover{
+    color: rgb(250, 215, 244);
 }
 .container-close-menu{
     position: absolute;
@@ -114,6 +118,13 @@ nav #logo img{
     top: 8px;
     font-size: 45px;
     cursor: pointer;
+}
+.container-close-menu i{
+    transition: .2s linear;
+}
+.container-close-menu i:hover{
+    color: white;
+    font-size: 48px;
 }
 
 
