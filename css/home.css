@@ -254,4 +254,7 @@ nav #logo img{
     .container-menu-open a{
         font-size: 2.3rem;
     }
+    .container-binarios{
+        margin: 20px 50px;
+    }
 }

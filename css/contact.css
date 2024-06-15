@@ -9,17 +9,16 @@
 
 #contact{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100vh;
     background: url(https://cdn.pixabay.com/photo/2021/04/13/06/54/network-6174797_1280.jpg);
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
 }
 
 .container-description-contact{
     width: 600px;
-    height: 70%;
     color: white;
     margin: 0px 40px;
     padding: 20px;
@@ -53,5 +52,10 @@
 @media screen and (max-width: 600px){
     .container-description-contact p {
         font-size: 1rem;
+        margin-right: 10px;
     }
+    .container-description-contact h2{
+        font-size: 2.5rem;
+    }
+    
 }
