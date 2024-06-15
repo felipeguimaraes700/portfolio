@@ -66,6 +66,13 @@
     border: 3px solid rgb(0, 0, 0);
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.87);
 }
+.init-hidden{
+    opacity: 0;
+    transition: .7s;
+}
+.init-hidden-off{
+    opacity: 1;
+}
 .project-iten{
     background-color: rgba(240, 255, 255, 0.404);
     width: 220px;
@@ -104,6 +111,8 @@
     background: linear-gradient(45deg, rgb(0, 157, 168), rgb(14, 63, 221), rgb(255, 0, 170));
     color: white;
 }
+
+
 
 @media screen and (max-width: 500px){
     #projects{
