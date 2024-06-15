@@ -243,3 +243,13 @@ nav #logo img{
         font-size: 2.5rem;
     }
 }
+
+@media screen and (max-width: 500px) {
+    .container-menu-open ul li{
+        margin-bottom: 70px;
+    }
+    
+    .container-menu-open a{
+        font-size: 2.3rem;
+    }
+}
